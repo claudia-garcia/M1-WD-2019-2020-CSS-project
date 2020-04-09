@@ -1,3 +1,28 @@
+  @import url("https://use.typekit.net/fut8eyh.css");
+
+
 body{
-  background-color: pink;
+  background-color: #fffbe9;
+  font-family: muli, sans-serif;
+}
+
+section{
+  border-bottom: 2px solid #cee397;
+  min-height: 65vh;
+}
+
+h1{
+  color: #68998f;
+  font-family: gothic-open-shaded, sans-serif;
+  font-size: 60px;
+}
+
+#main-menu{
+  background: rgba(206,227,151,0.9);
+  height: 100%;
+  width: 320px;
+  position: absolute;
+  top: 0;
+  left: -320px;
+
 }
