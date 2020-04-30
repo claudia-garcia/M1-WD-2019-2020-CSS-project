@@ -139,8 +139,12 @@ h2{
   }
 
 
+
+
 #grand{
   animation:spin 10s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
 }
 @keyframes spin
 {
@@ -156,6 +160,8 @@ h2{
 
  #moyen{
    animation:spin 10s linear infinite;
+   transform-box: fill-box;
+   transform-origin: center;
  }
  @keyframes spin
  {
@@ -170,6 +176,8 @@ h2{
 
   #petit{
     animation:spin 10s linear infinite;
+    transform-box: fill-box;
+    transform-origin: center;
   }
   @keyframes spin
   {
@@ -179,3 +187,15 @@ h2{
      transform:rotate(360deg);
      }
    }
+
+
+.mercercles{
+     border: 4px solid red;
+     max-width: 960px;
+
+
+   }
+
+.mercercles svg{
+  width: 100%;
+}
