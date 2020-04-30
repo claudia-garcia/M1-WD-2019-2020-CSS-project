@@ -4,6 +4,7 @@
 body{
   background-color: #cee397;
   font-family: muli, sans-serif;
+
 }
 
 p{
@@ -25,17 +26,29 @@ h1{
   text-align: center;
 }
 
+h2{
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+
+}
+
 #main-menu{
   background: rgba(206,227,151,0.9) ;
   height: 100%;
-  width: 320px;
+  width: 392px;
   position: absolute;
   top: 0;
-  left: -320px;
+  left: -400px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+
 
 }
 #main-menu:target{
  left: 0;
+ z-index: 999;
 
 }
 
@@ -46,27 +59,123 @@ h1{
 .close-menu{
   position: absolute;
   width: 30px;
-  left: 250px;
+  left: 340px;
   top: 20px;
 }
+
+#main-menu:target + .backdrop {
+  display: block;
+  background: #cee397;
+  position: absolute;
+  top : 0;
+  left : 0;
+  width: 100%;
+  height : 100%;
+  z-index: 998;
+}
+
+
+#titre1{
+  text-decoration: none;
+  margin-right: 30px;
+  color: black;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#titre2{
+  text-decoration: none;
+  margin-right: 30px;
+  color: black;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#titre3{
+  text-decoration: none;
+  margin-right: 30px;
+  color: black;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#titre4{
+  text-decoration: none;
+  margin-right: 30px;
+  color: black;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+
 
 @media (min-width : 640px) {
   #main-menu{
     position: static;
+
   }
+
+  #main-menu ul{
+    display: flex;
+    list-style: none;
+    border:none;
+
+
+
+  }
+
   #open-menu{
     display: none;
+}
+
+  .close-menu{
+    display: none;
   }
-  #main-menu:target + .backdrop {
-    display: block;
-    background: rgba(177, 243, 255, 0.8);
-    position: absolute;
-    top : 0;
-    left : 0;
-    width: 100%;
-    height : 100%;
-    z-index: 998;
-  }
+
   }
 
 
+#grand{
+  animation:spin 10s linear infinite;
+}
+@keyframes spin
+{
+ 100%
+ {
+   -webkit-transform: rotate(360deg);
+   transform:rotate(360deg);
+   }
+ }
+
+
+
+
+ #moyen{
+   animation:spin 10s linear infinite;
+ }
+ @keyframes spin
+ {
+  100%
+  {
+    -webkit-transform: rotate(360deg);
+    transform:rotate(360deg);
+    }
+  }
+
+
+
+  #petit{
+    animation:spin 10s linear infinite;
+  }
+  @keyframes spin
+  {
+   100%
+   {
+     -webkit-transform: rotate(360deg);
+     transform:rotate(360deg);
+     }
+   }
