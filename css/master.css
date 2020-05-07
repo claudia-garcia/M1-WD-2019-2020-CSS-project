@@ -252,6 +252,11 @@ button a {
 
 }
 
+button :hover{
+  color: #C2FFFC;
+
+}
+
 
 
 #abecedaire{
@@ -260,6 +265,7 @@ button a {
   grid-gap: 10px;
   grid-auto-rows: minmax(50px, auto);
   color: #DEB5FF;
+
 }
 
 
@@ -272,6 +278,13 @@ button a {
   text-align: center;
 
 }
+
+
+#abecedaire :hover{
+  background-color: #FFFFF5;
+  color: #C2FFFC;
+}
+
 
 #abecedaire:target {
   display: grid;
@@ -298,4 +311,9 @@ button a {
   font-style: normal;
   text-align: center;
 
+}
+
+#voyelle :hover{
+  background-color: #FFFFF5;
+  color: #C2FFFC;
 }
