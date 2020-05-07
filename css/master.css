@@ -1,6 +1,4 @@
-  @import url("https://use.typekit.net/fut8eyh.css");
-
-
+ @import url("https://use.typekit.net/fut8eyh.css");
 body{
   background-color: #FFFFF5;
   font-family: muli, sans-serif;
@@ -11,7 +9,7 @@ body{
 
 p{
   font-family: muli, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -21,18 +19,21 @@ section{
 }
 
 h1{
-  color: #FFCEB5;
-  font-family: gothic-open-shaded, sans-serif;
-  font-size: 60px;
+  color: #DEB5FF;
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
   position: relative;
   text-align: center;
 }
 
 h2{
-  font-family: muli, sans-serif;
-  font-weight: 900;
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 40px;
-  color: #DEB5FF;
+  color: #FFCEB5;
 
 }
 
@@ -231,31 +232,44 @@ ul li a {
 
 /*abcd*/
 
+button{
+  border-radius: 10px;
+  background-color: #DEB5FF;
+  border: none;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+  font-size: 16px;
+}
+
+button a {
+  text-decoration: none;
+  color: #FFFFF5;
+  font-family: muli, sans-serif;
+  font-weight: 1000;
+
+}
+
+
 
 #abecedaire{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-
-}
-
-/* Webfont: OpticianSans-Regular */@font-face {
-    font-family: 'OpticianSans';
-    src: url('../font/Optiker-K.woff2') format('woff2'), /* Modern Browsers */
-         url('../font/Optiker-K.ttf') format('truetype'); /* Safari, Android, iOS */
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-body{
-  font-family: 'OpticianSans';
+  grid-auto-rows: minmax(50px, auto);
+  color: #DEB5FF;
 }
 
 
 #abecedaire p {
-  background-color: #E9CFFF;
+  background-color: #F9FFB5;
   font-size: 3em;
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
 
 }
 
@@ -263,5 +277,25 @@ body{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(50px, auto);
+}
+
+/*voyelle*/
+
+#voyelle{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50px, auto);
+  color: #DEB5FF;
+}
+
+#voyelle p {
+  background-color: #F9FFB5;
+  font-size: 3em;
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+
 }
