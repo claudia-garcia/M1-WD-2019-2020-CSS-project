@@ -37,6 +37,19 @@ h2{
 
 }
 
+
+h3{
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #DEB5FF;
+  text-align: center;
+
+}
+
+
+
 #main-menu{
   background: #FFCEB5 ;
   height: 100%;
@@ -87,6 +100,7 @@ h2{
 
 #titre2:hover {
   color: #DEB5FF !important;
+
 }
 
 #titre3:hover {
@@ -155,7 +169,9 @@ h2{
 
   #open-menu{
     display: none;
+
 }
+
 
   .close-menu{
     display: none;
@@ -255,6 +271,7 @@ button a {
 button :hover{
   color: #C2FFFC;
 
+
 }
 
 
@@ -322,9 +339,6 @@ button :hover{
 
 
 
-
-/*#### Aditions fait par Woody pour exemple##### */
-
 .proxy-anchor {
   display: none;
 }
@@ -347,6 +361,48 @@ button :hover{
     grid-row: 1 / 2;
 }
 
+
+
+/*réseaux sociaux avec FLEX*/
+
+
+.rs{
+  background-color: #FCF8EB;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rs img {
+  padding: 20px;
+
+}
+
+/*ANIMATION ICONE RS*/
+
+#facebook:hover{
+  transform: scale(2);
+}
+
+#instagram:hover{
+  transform: scale(2);
+}
+
+
+#pinterest:hover{
+  transform: scale(2);
+}
+
+#site:hover{
+  transform: scale(2);
+}
+
+#svg:hover{
+  transform: scale(1.1);
+
+}
 
 /*voyelle
 
