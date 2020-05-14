@@ -179,11 +179,15 @@ h3{
 
   }
 
-ul li a {
+ul a {
   color: white !important;
 
 }
 
+#main-menu ul  {
+  color: white !important;
+
+}
 
 #grand{
   animation:spin 3s linear infinite;
@@ -380,27 +384,35 @@ button :hover{
 
 }
 
+
+
 /*ANIMATION ICONE RS*/
+
 
 #facebook:hover{
   transform: scale(2);
+  transition: all 0.2s ease-in;
 }
 
 #instagram:hover{
   transform: scale(2);
+  transition: all 0.2s ease-in;
 }
 
 
 #pinterest:hover{
   transform: scale(2);
+  transition: all 0.2s ease-in;
 }
 
 #site:hover{
   transform: scale(2);
+  transition: all 0.2s ease-in;
 }
 
 #svg:hover{
   transform: scale(1.1);
+  transition: all 0.2s ease-in;
 
 }
 
