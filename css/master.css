@@ -295,6 +295,61 @@ button :hover{
 
 /*voyelle*/
 
+#consonne,
+#voyelle{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50px, auto);
+  color: #DEB5FF;
+}
+
+#consonne p,
+#voyelle p {
+  background-color: #F9FFB5;
+  font-size: 3em;
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+
+}
+
+#voyelle:hover{
+  background-color: #FFFFF5;
+  color: #C2FFFC;
+}
+
+
+
+
+/*#### Aditions fait par Woody pour exemple##### */
+
+.proxy-anchor {
+  display: none;
+}
+
+#abecedaire p {
+  transition: all 0.5s ease-in;
+}
+
+#proxy-anchor-vowels:target ~ .consonne {
+    opacity: 0;
+    transform: scale(0.1);
+    grid-column : 1 / 2;
+    grid-row: 1 / 2;
+}
+
+#proxy-anchor-consonants:target ~ .voyelle {
+    opacity: 0;
+    transform: scale(0.1);
+    grid-column : 1 / 2;
+    grid-row: 1 / 2;
+}
+
+
+/*voyelle
+
 #voyelle{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -317,3 +372,4 @@ button :hover{
   background-color: #FFFFF5;
   color: #C2FFFC;
 }
+*/
